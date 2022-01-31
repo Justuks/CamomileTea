@@ -1,1 +1,0 @@
-alert('things gonna be just fine')

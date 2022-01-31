@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,40 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <p>
-            <h1 id="header-text">Welcome aboard sailor. Before starting the engines, let us complete a little competency test.
-                Press<button id="press" onclick="hide()"><h1> here </h1></button> to begin.
+            <h1 id="header-text">Welcome aboard sailor. Before starting the engines, let us complete a little competency
+                test.
+                <p>
+                    <h1>Press<button id="press" onclick="hide()">
+                            <h1> here </h1>
+                        </button> to begin.</h1>
+                </p>
             </h1>
         </p>
     </header>
+    <div id="test">TEST</div>
+    <div id="main-container">
+        <div id="points">
+            <span id="my-score">0:0</span>
+            <span id="max-score">0:0</span>
+        </div>
+        <div id="question-text">Text</div>
+        <div id="buttons">
+            <button id="a">a</button>
+            <button id="b">b</button>
+            <button id="c">c</button>
+        </div>
+        <div id="tools">
+            <button id="next">Next</button>
+            <button id="previous">Previous</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
     <script src="assets/index.js"></script>
 </body>
+
 </html>

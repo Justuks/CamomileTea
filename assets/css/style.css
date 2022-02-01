@@ -58,3 +58,12 @@ body {
     font-weight: 600;
 }
 
+/*Now go on to the questions section styling*/
+#question-text {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}

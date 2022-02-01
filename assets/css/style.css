@@ -66,4 +66,15 @@ body {
     font-weight: 600;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
+}
+
+/*lets work on our buttons for a while*/
+.buttons {
+    padding: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid white;
+    margin: 5px 5px;
+    font-weight: 600;
 }

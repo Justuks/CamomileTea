@@ -18,7 +18,7 @@ body {
 /*style my game box here below*/
 #game-container {
     background-color: black;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #a87b32;
     width: 50%; 
     margin: auto;
@@ -47,6 +47,7 @@ body {
     padding: auto;
     line-height: 50px;
     font-size: smaller;
+    border-radius: 10px;
 }
 
 /*starting to organize my game box internals*/
@@ -81,4 +82,7 @@ body {
 
 #here {
     cursor: pointer;
+}
+#game-container {
+    visibility: hidden;
 }

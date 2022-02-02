@@ -50,14 +50,6 @@ body {
     border-radius: 10px;
 }
 
-/*starting to organize my game box internals*/
-#points {
-    width: 20%;
-    height: 10vh;
-    font-size: x-large;
-    text-align: center;
-    font-weight: 600;
-}
 
 /*Now go on to the form elements styling*/
 .paragraphs {

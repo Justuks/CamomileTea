@@ -25,22 +25,43 @@
 
     </header>
     <div id="game-container">
-        <div id="points">
-            <span id="my-score">0   :</span>
-            <span id="max-score">0</span>
-        </div>
-        <div id="question-text">Text</div>
-        <div>
-            <button id="a" class="buttons">Variant A</button>
-            <button id="b" class="buttons">Variant B</button>
-            <button id="c" class="buttons">Variant C</button>
-        </div>
-        <div>
-            <button id="next" class="buttons">Next</button>
-            <button id="previous" class="buttons">Previous</button>
-            <button id="reset" class="buttons">Reset</button>
-            <button id="submit" class="buttons">Submit</button>
-        </div>
+        <form id="form">
+            <p class="paragraphs">What ship's left-hand side is called?</p>
+            <br>
+            <input type="radio" value="a" name="q1" class="btn">
+            <span>Aft</span>
+            <input type="radio" value="b" name="q1" class="btn">
+            <span>Bow</span>
+            <input type="radio" value="c" name="q1" class="btn">
+            <span>Port</span>
+            <br>
+            <br>
+            <p class="paragraphs">Nautical mile in km?
+            </p>
+            <br>
+            <input type="radio" value="a" name="q2" class="btn">
+            <span>1.6</span>
+            <input type="radio" value="b" name="q2" class="btn">
+            <span>1.85</span>
+            <input type="radio" value="c" name="q2" class="btn">
+            <span>3</span>
+            <br>
+            <br>
+            <p class="paragraphs">How many degrees does a compass have?
+            </p>
+            <br>
+            <input type="radio" value="a" name="q3" class="btn">
+            <span>360</span>
+            <input type="radio" value="b" name="q3" class="btn">
+            <span>90</span>
+            <input type="radio" value="c" name="q3" class="btn">
+            <span>128</span>
+            <br>
+            <br>
+            <input type="submit" value="submit" class="btn" onclick="result()">
+            <br>
+
+        </form>
     </div>
     <script src="assets/index.js"></script>
 </body>

@@ -13,24 +13,22 @@ let nextBtn = document.getElementById('next')
 let prevBtn = document.getElementById('previous')
 let resetBtn = document.getElementById('reset')
 let subBtn = document.getElementById('submit')
+aVariant = 0
+bVariant = 1
+cVariant = 2
 
-let questions = [{
-        question1: "What ship's left-hand side is called?",
-        a: 'Aft',
-        b: 'Port',
-        c: 'Starboard'
-    },
-    {
-        question2: "Nautical mile in km?",
-        a: 3,
-        b: 1.6,
-        c: 1.85
-    },
-    {
-        question3: "How many degrees does a compass have?",
-        a: 360,
-        b: 180,
-        c: 90
+let question1 = {
+        title: "What ship's left-hand side is called?",
+        answers: ['Aft', 'Bow', 'Port'],
+        correct: 2
     }
-
-]
+let question2 = {
+        title: "Nautical mile in km?",
+        answers: [3, 1.6, 1.85],
+        correct: 2
+    }
+let question3 = {
+        title: "How many degrees does a compass have?",
+        answers: [360, 90, 123],
+        correct: 0
+    }

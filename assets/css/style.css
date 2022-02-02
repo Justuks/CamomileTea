@@ -59,25 +59,15 @@ body {
     font-weight: 600;
 }
 
-/*Now go on to the questions section styling*/
-#question-text {
-    display: flex;
-    flex-direction: column;
-    font-size: x-large;
+/*Now go on to the form elements styling*/
+.paragraphs {
+    font-size: larger;
     font-weight: 600;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
-/*lets work on our buttons for a while*/
-.buttons {
-    padding: 3px;
-    text-decoration: none;
+.btn {
     cursor: pointer;
-    border: 2px solid white;
-    margin: 5px 5px;
-    font-weight: 600;
 }
 
 #here {

@@ -49,22 +49,20 @@ body {
     font-size: smaller;
     border-radius: 10px;
 }
+#press {
+    cursor: pointer;
+}
 
 
 /*Now go on to the form elements styling*/
-.paragraphs {
-    font-size: larger;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-.btn {
-    cursor: pointer;
-}
-
-#here {
-    cursor: pointer;
-}
 #game-container {
     visibility: hidden;
 }
+#first-form{
+    font-size: larger;
+    font-weight: 300;
+}
+.btn {
+    cursor: pointer;
+}
+    

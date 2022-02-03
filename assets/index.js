@@ -7,9 +7,9 @@ document.getElementById('press').onclick = function () {
 
 //starting to arrange variables for the game form
 
-let question1 = document.getElementById('first-form').q1.value
-let question2 = document.getElementById('first-form').q2.value
-let question3 = document.getElementById('first-form').q3.value
+let question1 = document.getElementById('1').value
+let question2 = document.getElementById('2').value
+let question3 = document.getElementById('3').value
 let count = 0
 
 function result(){
@@ -19,7 +19,8 @@ function result(){
     if(question2 == 'b'){
         count++;
     }
-    if(question3 == 'c'){
+    console.log(count)
+    if(question3 == 'a'){
         count++;
     }
     if (count == 3){
